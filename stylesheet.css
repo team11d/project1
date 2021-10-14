@@ -8,7 +8,6 @@ a {
 }
 
 
-
 /* Bagian Profile Team */
 
 .profile-wrapper {
@@ -90,4 +89,45 @@ a {
 
 .about-icon {
 	text-align: center;
+}
+
+/* Bagian Program Partner */
+
+.partner-wrapper {
+	background-color: #fff;
+	padding: 30px 0;
+}
+
+.partner-wrapper h2 {
+	color: #34495e;
+	border-bottom: 3px solid #34495e;
+	padding-bottom: 10px;
+	margin: 0 35%;
+	text-align: center;
+}
+
+.partner-wrapper .logo-progate {
+	width: 150px;
+	margin: 60px 0 30px;
+}
+
+.partner-container {
+	display: flex;
+	justify-content: center;
+	flex-flow: row wrap;
+	text-align: center;
+	padding: 0 10px
+}
+
+.partner-container img {
+	width: 120px;
+}
+
+.logos {
+	margin: 15px;
+}
+
+.logos p {
+	font-size: 10px;
+	color: #b3aeb5;
 }
