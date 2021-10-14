@@ -23,6 +23,17 @@
 /* Untuk Smartphone */
 @media all and (max-width: 670px) {
 
+  /* Bagian Banner */
+
+  .top-wrapper h1 {
+    font-size: 23px;
+  }
+
+  .top-wrapper h2 {
+    font-size: 15px;
+  }
+  
+  
   /* Bagian Profile*/
 
   .profile-wrapper h2 {
