@@ -7,6 +7,72 @@ a {
 	text-decoration: none;
 }
 
+/* Bagian Banner */
+
+.top-wrapper {
+	padding: 100px 0 100px 0;
+	background-image: url(img/arnold-francisca-nPhl2x4fk2s-unsplash.jpg);
+	background-size: cover;
+	color: white;
+	text-align: center;
+}
+
+.top-wrapper h1 {
+	font-size: 45px;
+	letter-spacing: 3px;
+	margin-bottom: 15px;
+	text-shadow: 2px 2px 4px #000;
+}
+
+.btn-wrapper {
+	position: static;
+	padding: 20px;
+	margin-top: 60px;
+}
+
+.btn-github {
+	width: 140px;
+	height: 40px;
+	padding: 8px 12px;
+	font-size: 18px;
+	font-family: sans-serif;
+	text-decoration: none;
+	color: #fff;
+	border: 2px solid #fff;
+	letter-spacing: 2px;
+	text-align: center;
+	position: relative;
+	transition: all .35s;
+}
+
+.btn-github span {
+	position: relative;
+	z-index: 2;
+}
+
+.btn-github:after {
+	position: absolute;
+	content: "";
+	top: 0;
+	left: 0;
+	width: 0;
+	height: 100%;
+	background: #fff;
+	transition: all .35s;
+}
+
+.btn-github:hover {
+	color: #34495e;
+}
+
+.btn-github:hover:after {
+	width: 100%;
+}
+
+.fab {
+	margin-right: 5px;
+}
+
 
 /* Bagian Profile Team */
 
