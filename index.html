@@ -11,11 +11,27 @@
   <body>
     <!-- Bagian Header -->
     <header>
-      
+      <div class="container">
+        <div class="logo-header">
+          <img class="logo-team" src="img/logo/logo_team.png">
+        </div>
+        <input type="checkbox" id="menu">
+        <label for="menu" class="show-menu">
+          <i class="fas fa-bars"></i>
+        </label>
+        <div class="nav">
+          <a href="#home">Home</a>
+          <a href="#profile">Profile Team</a>
+          <a href="#partner">Program Partner</a>
+          <label for="menu" class="hide-menu">
+            <i class="fas fa-times"></i>
+          </label>
+        </div>
+      </div>
     </header>
     
     <!-- Bagian Banner -->
-    <div class="top-wrapper">
+    <div class="top-wrapper" id="home">
       <h1>TEAM 11D</h1>
       <h2>Learn to code, learn to be creative.</h2>
       <div class="btn-wrapper">
@@ -26,7 +42,7 @@
     </div>
     
     <!-- Bagian Profile Team -->
-    <div class="profile-wrapper">
+    <div class="profile-wrapper" id="profile">
 
       <h2>Profile Team</h2>
 
@@ -170,7 +186,7 @@
     </div>
     
     <!-- Bagian Program Partner -->
-    <div class="partner-wrapper">
+    <div class="partner-wrapper" id="partner">
       <h2>Program Partner</h2>
 
       <center><img src="img/logo/logo progate.png" class="logo-progate"></center>
@@ -227,7 +243,7 @@
     <!-- Bagian Footer -->
     <footer>
       <div class="container">
-        <img src="img//logo/logo_team.png">
+        <img src="img/logo/logo_team.png">
         <p>Learn to code, learn to be creative.</p>
       </div>
     </footer>
